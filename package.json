@@ -1,0 +1,29 @@
+{
+  "name": "webpack_demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode-development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanieZ/webpack_demo1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanieZ/webpack_demo1/issues"
+  },
+  "homepage": "https://github.com/JeanieZ/webpack_demo1#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
